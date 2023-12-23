@@ -21,6 +21,7 @@ public class ArticleRepository
 
     public async Task<Responses<Article>> GetAllArticle()
     {
+
         return new Responses<Article>();
     }
 }
