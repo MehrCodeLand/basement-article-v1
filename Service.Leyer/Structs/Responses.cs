@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Leyer.Repositories.Structs;
+namespace Service.Leyer.Structs;
 
 public struct Responses<T>
 {

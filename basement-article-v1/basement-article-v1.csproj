@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Data.Leyer\Data.Leyer.csproj" />
+    <ProjectReference Include="..\Service.Leyer\Service.Leyer.csproj" />
   </ItemGroup>
 
 </Project>

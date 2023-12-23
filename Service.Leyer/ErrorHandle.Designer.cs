@@ -68,5 +68,32 @@ namespace Service.Leyer {
                 return ResourceManager.GetString("DataNotFound", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Duplicte Data.
+        /// </summary>
+        internal static string DuplicateData {
+            get {
+                return ResourceManager.GetString("DuplicateData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No Data.
+        /// </summary>
+        internal static string NoDataExist {
+            get {
+                return ResourceManager.GetString("NoDataExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something wrong.
+        /// </summary>
+        internal static string NotNow {
+            get {
+                return ResourceManager.GetString("NotNow", resourceCulture);
+            }
+        }
     }
 }

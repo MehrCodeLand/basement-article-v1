@@ -120,4 +120,13 @@
   <data name="DataNotFound" xml:space="preserve">
     <value>Data is not found</value>
   </data>
+  <data name="DuplicateData" xml:space="preserve">
+    <value>Duplicte Data</value>
+  </data>
+  <data name="NoDataExist" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="NotNow" xml:space="preserve">
+    <value>Something wrong</value>
+  </data>
 </root>
