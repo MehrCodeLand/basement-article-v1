@@ -39,7 +39,7 @@ public class ArticleController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateArticle( CreateArticleVm articleVm)
+    public async Task<IActionResult> CreateArticle([FromBody] CreateArticleVm articleVm)
     {
         var responses = await _articleRepo.CreateArticle(articleVm);
         if(responses.HasError )
